@@ -1,0 +1,523 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5e5;
+}
+
+.barra_topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+}
+
+.barra_topo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.barra_topo > div {
+  width: 935px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.barra_topo ion-icon {
+  font-size: 21px;
+}
+
+.icons ion-icon {
+  margin-left: 25px;
+}
+
+.logo1 {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+#logo-instagram {
+  font-size: 35px;
+}
+
+.img_logo {
+  background-image: url("./images/logo.png");
+  width: 103px;
+  height: 29px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-left: 1px solid #dbdbdb;
+  padding-left: 20px;
+}
+
+input {
+  width: 215px;
+  height: 28px;
+  text-align: center;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #979797;
+}
+
+.conteudo {
+  width: 935px;
+  margin-top: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div1 {
+  width: 614px;
+}
+
+.caixa_stories {
+  width: 100%;
+  height: 118px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  overflow-x: hidden;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.caixa_stories .stories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 14px;
+}
+
+.caixa_stories div div {
+  background-image: url("./images/stories_background.jpg");
+  width: 66px;
+  height: 66px;
+  border-radius: 33px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa_stories img {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+}
+
+.caixa_stories p {
+  font-family: Roboto;
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 14.06px;
+  text-align: center;
+  color: black;
+}
+
+.caixa_stories ion-icon {
+  font-size: 32px;
+  color: #ffffff;
+  position: absolute;
+  right: 8px;
+  bottom: 46px;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 4px gray);
+}
+
+.post {
+  background-color: #ffffff;
+  width: 100%;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 60px;
+}
+
+.post > div {
+  width: 94.4%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.post ion-icon {
+  font-size: 21px;
+}
+
+.post .icon ion-icon {
+  margin-right: 15px;
+}
+
+.post .img_post {
+  background-image: url("./images/gato-telefone1.png");
+  width: 612px;
+  height: 612px;
+}
+
+.post .img {
+  background-image: url("./images/meowed2.png");
+  width: 32px;
+  height: 32px;
+}
+
+.post .img2 {
+  background-image: url("./images/respondeai2.png");
+  width: 20px;
+  height: 20px;
+}
+
+.post p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.41px;
+}
+
+.post .p1 {
+  color: #262626;
+  margin-left: 12px;
+}
+
+.post .p2 {
+  font-weight: 300;
+  margin-left: 5px;
+}
+.post span {
+  font-weight: 700;
+}
+
+.post > div:nth-child(5) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16.4px;
+  color: #8e8e8e;
+}
+
+.post > div:nth-child(6) ion-icon {
+  font-size: 30px;
+}
+
+.post > div:nth-child(7) {
+  width: 100%;
+  padding-top: 7px;
+  border-top: 1px solid #dbdbdb;
+}
+
+.post > div:nth-child(7) div {
+  margin: auto;
+  width: 94.4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post > div:nth-child(7) ion-icon {
+  font-size: 21px;
+}
+
+.post > div:nth-child(7) input {
+  width: 80%;
+  text-align: left;
+  background-color: #ffffff;
+  border: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16.4px;
+  color: #8e8e8e;
+}
+
+.post > div:nth-child(7) button {
+  border: none;
+  background-color: #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 16.4px;
+  color: #b2dffc;
+}
+
+.post > div:nth-child(7) button:hover {
+  color: #0095f6;
+  transition: 300ms;
+}
+
+.post2 .img_post2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 612px;
+  height: 612px;
+  background-color: black;
+}
+
+.post2 .img_post2 video {
+  width: 100%;
+  height: 100%;
+}
+
+.post2 .img {
+  background-image: url("./images/barked2.png");
+}
+
+.post2 .img2 {
+  background-image: url("./images/adorableanimals2.png");
+}
+
+.div2 {
+  width: 293px;
+  height: 50%;
+  position: sticky;
+  top: 54px;
+}
+
+.div2 .img {
+  background-image: url("./images/catanacomics1.png");
+  width: 56px;
+  height: 56px;
+}
+
+.div2 .img2 {
+  background-image: url("./images/badvibesmemes1.png");
+  width: 32px;
+  height: 32px;
+}
+
+.div2 > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 23px 0px 23px 0px;
+}
+
+.div2 .h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div2 > div:first-child P {
+  margin-left: 17px;
+}
+.div2 div:first-child p:first-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.4px;
+  color: #262622;
+}
+
+.div2 div:first-child p:last-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16.4px;
+  color: #8e8e8e;
+}
+
+.div2 > div:nth-child(2) p:first-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #8e8e8e;
+}
+
+.div2 > div:nth-child(2) p:last-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #262626;
+  text-align: right;
+}
+
+.div2 .sug p {
+  margin-left: 11px;
+}
+
+.div2 .sug p:first-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+}
+
+.div2 .sug p:nth-child(2) {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8e8e8e;
+}
+
+.div2 .sug > p:last-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #139ef2;
+}
+
+.div2 > div:nth-child(8),
+.div2 > div:last-child {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #c7c7c7;
+}
+
+.barra_mobile {
+  display: none;
+}
+
+.barra_inf {
+  display: none;
+}
+
+@media (max-width: 935px) {
+  .div2 {
+    display: none;
+  }
+
+  .barra_topo > div {
+    width: 95%;
+  }
+
+  .conteudo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 614px) {
+  .conteudo,
+  .div1,
+  .post .img_post,
+  .post2 .img_post2 {
+    width: 100%;
+  }
+
+  .barra_topo,
+  .caixa_stories ion-icon {
+    display: none;
+  }
+
+  .barra_mobile {
+    width: 100%;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  .img_logo {
+    margin: none;
+    border: none;
+  }
+  .barra_mobile ion-icon {
+    font-size: 19.25px;
+  }
+
+  .barra_mobile > ion-icon:first-child {
+    margin-left: 15px;
+  }
+  .barra_mobile > ion-icon:last-child {
+    margin-right: 15px;
+  }
+
+  .barra_inf {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+  }
+
+  .barra_inf ion-icon {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 19.25px;
+  }
+
+  .caixa_stories {
+    margin: 0px;
+    background-color: #e5e5e5;
+    border: none;
+  }
+
+  .conteudo {
+    margin-top: 54px;
+  }
+}
